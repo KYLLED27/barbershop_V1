@@ -1,0 +1,228 @@
+body {
+    font-family: 'Rajdhani', sans-serif;
+    
+}
+
+header {
+    text-align: center;
+    background: linear-gradient(#000000, #FFFFFF)
+}
+
+header .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header img {
+    width: 100px;
+}
+
+nav {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    background-color: black;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 8px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    color:#000000;
+    background-color: rgba(0, 0, 0, 0.384);
+    font-weight: 600;
+    box-shadow: 5px 3px 20px rgb(0, 0, 0, 0.384)
+}
+
+main {
+    margin-top: 30px;
+}
+
+#primeira {
+    background-image: url(../img/banner.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#primeira .container{
+    padding: 20px 16px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#primeira h2 {
+    font-size: 45px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#segunda .container{
+    padding-top: 20px 16px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#segunda .titulo {
+    font-size: 40px;
+    margin: 10px 0px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.384);
+}
+
+
+#segunda .texto {
+    font-size: 22px;
+    line-height: 28px;
+    max-width: 800px;
+    margin: 20px auto 0 auto;
+}
+
+#segunda .nome {
+    font-weight: bold;
+}
+
+#segunda .missao {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+
+#terceira  {
+    background-image: url(../img/beneficios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+
+#terceira .container {
+    padding: 20px 16px;
+}
+
+#terceira .itens {
+    margin: auto;
+    background-color: #ffffff36;
+    max-width: 500px;
+    padding: 25px;
+    border-radius: 20px;
+
+}
+
+
+#terceira .itens p {
+    text-align: center;
+    font-size: 22px;
+    margin: 10px 0px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.384);
+}
+
+
+#terceira .titulo {
+    display: flex;
+    justify-content: space-around;
+}
+
+#terceira ul {
+    text-align: center;
+
+}
+
+#terceira ul li {
+    margin: 12px 0;
+    font-weight: 600;
+}
+
+#terceira ul li:hover {
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transform: scale(1.8);
+}
+
+#quarta {
+    margin: auto;
+    padding: 20px 16px;
+}
+
+
+#quarta .container{
+    padding: 30px 0;
+    max-width: 500px;
+    margin: auto;
+}
+
+#quarta table {
+    width: 400px;
+    margin: auto;
+    border: solid 1px #000000;
+    font-size: 22px;
+}
+
+#quarta table th {
+    width: 400px;
+    border: 1px solid #000000;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+#quarta table td {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 2px 0;
+}
+
+#video {
+    text-align: center;
+    padding: 20px 16px;
+    background-image: url(../img/bkg-video.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    text-align: center;
+    background: linear-gradient(0deg,#000000, #FFFFFF)  
+}
+
+footer .container {
+    margin: 0 100px;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .container .logo {
+    width: 200px;
+}
+
+footer .midias img {
+    width: 70px;
+}
+
+footer .midias {
+    width: 380px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+footer .midias a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer .midias a:hover {
+    transform: translatey(-15px);
+}
